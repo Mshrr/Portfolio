@@ -1,0 +1,187 @@
+.loader {
+  border-top-color: #ef4444;
+  -webkit-animation: spinner 1.5s linear infinite;
+  animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bling {
+  animation: color-change 20s ease-in-out infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: red;
+  }
+  20% {
+    color: rgb(255, 123, 0);
+  }
+  40% {
+    color: rgb(100, 128, 0);
+  }
+  60% {
+    color: rgb(0, 255, 119);
+  }
+  80% {
+    color: rgb(0, 17, 255);
+  }
+  100% {
+    color: rgb(255, 0, 68);
+  }
+}
+
+
+
+.onmaibana {
+  position:relative;
+  margin:auto;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+   outline: none;
+  color: #fcfc0a;
+  background-color: #05856d;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 9px #000;
+}
+/* Darker background on mouse-over */
+.onmaibana:hover {
+  background-color: #7c7d7e;
+}
+.onmaibana:active {
+  background-color: hsl(163, 60%, 30%);
+  box-shadow: 0 5px rgb(74, 100, 96);
+  transform: translateY(4px);
+}
+
+/* SKILLS MAULANA MANSHUR */
+.container .card-skills {
+  position: relative;
+  width:30%;
+  max-width : 90%;
+  height : 260px;  
+  background-color : rgb(2, 2, 2);
+  margin : 100px 20px;
+  margin-right: 1px;
+  padding : 40px 15px;
+  display : flex;
+  flex-direction : column;
+  box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+  transition : 0.3s ease-in-out;
+  border-radius : 15px;
+}
+.container .card-skills:hover {
+  height : 380px;
+}
+
+@media screen and (max-width: 500px) and (min-width: 200px) {
+  .container .card-skills {
+    width: 100%;
+  }
+}
+.container .card-skills .image-skills {
+  text-align: center;
+  background-color: rgba(15, 46, 53, 0.445);
+  color: rgba(255, 255, 255, 0.819);
+  position : relative;
+  width : 80%;
+  height : 260px;
+  top : -40%;
+  left: 10%;
+  right: 10%;
+  padding: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  box-shadow : 0 5px 20px rgba(0, 0, 0, 0.425);
+  z-index : 1;
+}
+
+.container .card-skills .image-skills img {
+  opacity: 60%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  margin-bottom: 20px;
+  border-radius : 15px;
+}
+
+.container .card-skills .content-skills {
+  position : relative;
+  top : -140px;
+  padding : 10px 15px;
+  color : #111;
+  text-align : left;
+  visibility : hidden;
+  opacity : 0;
+  transition : 0.3s ease-in-out;
+    
+}
+
+.container .card-skills .content-skills h5 {
+  color: aliceblue;
+  text-align: justify;
+}
+.container .card-skills .content-skills h5 img{
+  width: 18px;
+  height: 18px;
+}
+.container .card-skills:hover .content-skills {
+   margin-top : 50px;
+   margin-bottom: 20px;
+   visibility : visible;
+   opacity : 1;
+   transition-delay: 0.2s;
+  
+}
+.skills-i {
+  width: 100%;
+  height: 5px;
+  background-color: aliceblue;
+}
+
+/* Certificate Maulana Manshur */
+.card {
+  width: 90%;
+  height: 90%;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  transition: all .3s;
+  margin: 10px 0;
+  padding: 3px !important;
+  border-radius: 20px !important;
+ }
+ 
+ .card img {
+  padding: 0;
+  width:100%;
+  height: 100%;
+  border-radius: 20px;
+ }
+
+ .card img:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 2px rgba(0, 255, 117, 0.30);
+  border-radius: 20px;
+ }
