@@ -29,6 +29,9 @@ body {
     color:rgb(140, 219, 246);
     
   }
+  .content-nav p a {
+    text-decoration: none;
+  }
   .content-nav .jwd {
     margin-left: 300px;
   }

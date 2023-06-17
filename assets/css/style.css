@@ -644,7 +644,13 @@ section.my-work .section-heading {
 section.my-work .section-heading .line-dec {
     font-size: 100px;
 }
-
+.bjwd {
+    border-radius: 20px;
+    background-color: black !important;
+}
+.bjwd :hover {
+    background-color: #09c8b2!important;
+}
 
 /* Contact Me */
 
