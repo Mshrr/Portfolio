@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+
 body {
     background-color: rgba(255, 255, 255, 0.618);
 }
@@ -27,6 +29,12 @@ body {
     color:rgb(140, 219, 246);
     
   }
+  .content-nav .jwd {
+    margin-left: 300px;
+  }
+  .content-nav .social {
+    margin-left: 200px;
+  }
   ul.soial-icons {
     display: flex;
     list-style: none;
@@ -54,6 +62,7 @@ body {
     color:rgb(140, 219, 246);
   }
 
+
 .content .rel-post {
   width: 25%;
 }
@@ -61,4 +70,27 @@ body {
 .content .artikel {
   width: 70%;
   padding-left: 5%;
+}
+.content .artikel .soal2 {
+  width: 350px;
+  border: 3px solid black;
+  padding: 5px;
+}
+.content .artikel .soal3 .a{
+  font-family: 'Arimo', sans-serif;
+}
+.content .artikel .soal3 .b {
+  font-family: 'Open Sans', sans-serif;
+}
+.content .artikel .soal3 .c {
+  font-family: 'Roboto', sans-serif;
+}
+.content .artikel .soal4 .a {
+  color: red;
+}
+.content .artikel .soal4 .b {
+  color: green;
+}
+.content .artikel .soal4 .c {
+  color: blue;
 }
