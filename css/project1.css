@@ -11,11 +11,15 @@ body {
     display: flex;
     align-items:inherit;
   }
-  
+
+  .content-nav p img {
+    width: 50px;
+    height: 50px ;
+  }
   .content-nav p {
-    color:aliceblue;
+    color:rgb(255, 255, 255);
     margin-left:50px;
-    margin-right: 100px;
+    margin-right: 20px;
     font-size: large;
     font-style:oblique;
   }
@@ -38,6 +42,8 @@ body {
     align-items: center;
     width: 40px;
     height: 40px;
+    padding: 21%;
+    padding-top:17%;
     border-radius: 30%;
     display: inline-block;
     position: relative;
@@ -47,3 +53,12 @@ body {
   ul.soial-icons li a :hover {
     color:rgb(140, 219, 246);
   }
+
+.content .rel-post {
+  width: 25%;
+}
+
+.content .artikel {
+  width: 70%;
+  padding-left: 5%;
+}
