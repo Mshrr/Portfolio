@@ -52,24 +52,42 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Halaman Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+    body {
+        background-image: url('/lunar.jpg');
+        background-size: cover;
+
+        .text {
+            color: white;
+        }
+
+        
+    }
+    
+    </style>
+
 </head>
 <body>
-    <h2>Login</h2>
     <?php if (isset($error_message)) { ?>
         <p><?php echo $error_message; ?></p>
     <?php } ?>
+    <div class="bg-dark">
+    <h2 class="text">Login</h2>
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST">
-        <label for="email">Email:</label>
+        <label class="text" for="email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
 
-        <label for="password">Password:</label>
+        <label class="text" for="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
 
         <input type="submit" value="Login">
     </form>
-
-    <p>Belum punya akun? <a href="register.php">Daftar di sini</a></p>
+    </div>
+    <p class="text">Belum punya akun? <a href="register.php">Daftar di sini</a></p>
 </body>
 </html>
 
