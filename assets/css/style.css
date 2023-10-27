@@ -405,10 +405,10 @@ html {
   background-color: #1a111fc5;
   background-image: linear-gradient(to bottom right, #150e2e, #0f1527e5, #383c47cc);
   box-sizing: border-box;
-  height: 100vh;
-  max-height: 100vh !important;
-  max-width: 80vw !important;
-  min-width: 45px !important;
+  height: 100%;
+  max-height: 100% !important;
+  /* width: 80vw !important; */
+  width: 20%;
   outline: none;
   overflow-x: hidden !important;
   overflow-y: auto !important;
@@ -419,6 +419,13 @@ html {
   width: 20%;
   will-change: transform;
   z-index: 9999 !important;
+}
+
+@media (max-width: 767px) {
+   .menu {
+    height: 100%;
+    width: 200px;
+   }
 }
 
 .menu-toggle {
