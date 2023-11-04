@@ -856,7 +856,7 @@ footer br {
   }
 
   .menu {
-    width: 320px;
+    width: 320px !important;
     -webkit-transform: translateX(-100%) !important;
     transform: translateX(-100%) !important;
     transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
