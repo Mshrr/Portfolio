@@ -832,9 +832,9 @@ footer br {
   padding-right: 0;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 846px) {
+@media screen and (max-width: 1280px) and (min-width: 946px) {
   .menu {
-    width: 25%;
+    width: 380px;
   }
 }
 
