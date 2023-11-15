@@ -784,6 +784,49 @@
 }
 
 
+/* Button Submit  */
+.submit  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* background-color: gold; Ganti dengan warna latar belakang yang diinginkan */
+  color: white;
+  padding: 12px 24px;
+  border-color: gold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button svg {
+  width: 18px;
+  position: relative;
+  height: 18px;
+  fill: white;
+  transition: all 0.3s;
+}
+
+button .svg-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  /* margin-right: 0.5em; */
+  transition: all 0.3s;
+}
+
+button:hover .svg-wrapper {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:hover svg {
+  transform: rotate(45deg);
+}
+
 
 
 
